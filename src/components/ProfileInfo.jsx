@@ -1,6 +1,6 @@
 export default function ProfileInfo() {
     return (
-        <section>
+        <div>
             <img src="./src/assets/JYLogo.svg" alt="My logo" />
             <h1>Jeremy Yochum</h1>
             <h3>Front-end Developer</h3>
@@ -9,6 +9,6 @@ export default function ProfileInfo() {
                 <button className="email">Email</button>
                 <button className="linkedin">LindedIn</button>
             </div>
-        </section>
+        </div>
     )
 }
