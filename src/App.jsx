@@ -1,5 +1,6 @@
 import ProfileInfo from "./components/ProfileInfo"
 import About from "./components/About"
+import Footer from "./components/Footer"
 import "./sass/main.scss"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <ProfileInfo />
       <About />
+      <Footer />
     </>
   )
 }
