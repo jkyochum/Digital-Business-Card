@@ -1,4 +1,4 @@
-@import 'resets', 'variables';
+@import 'resets', 'variables', 'mixins';
 
 body {
     background-color: $charcoal-background;
@@ -21,27 +21,58 @@ body {
 
     .name {
         color: $white;
+        font-size: 25px;
+        font-weight: 700;
     }
 
     .title {
         color: $title-font-color;
+        font-size: 12.8px;
+        font-weight: 400;
     }
 
     .website-link {
         a {
             color: $off-white;
             text-decoration: none;
+            font-size: 10.24px;
+            font-weight: 400;
+            line-height: 150%;
+            /* 15.36px */
         }
     }
 
-    .email {
-        color: $gray-700;
+    .profile-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 17px;
+
+        .email {
+            background-color: $white;
+            color: $gray-700;
+            border: 1px solid $gray-300;
+            @include button-layout;
+            @include button-text;
+
+            img {
+                height: 16px;
+                width: 16px;
+            }
+        }
+
+        .linkedin {
+            background-color: $linkedin-blue;
+            color: $white;
+            @include button-layout;
+            @include button-text;
+
+            img {
+                height: 16px;
+                width: 16px;
+            }
+        }
     }
 
-    .linkedin {
-        background-color: $linkedin-blue;
-        color: $white;
-    }
 }
 
 .personal-info {
