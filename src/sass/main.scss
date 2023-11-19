@@ -8,6 +8,7 @@ body {
     align-items: center;
     text-align: center;
     font-family: Inter, sans-serif;
+    padding: 44px;
 }
 
 .profile-info {
@@ -17,22 +18,26 @@ body {
 
     .header-logo {
         width: 250px;
-        padding: 25px;
+        padding: 35px;
     }
 
     .name {
         color: $white;
         font-size: 25px;
         font-weight: 700;
+        margin-top: 10px;
     }
 
     .title {
         color: $title-font-color;
         font-size: 12.8px;
         font-weight: 400;
+        margin-top: 6.19px;
     }
 
     .website-link {
+        margin-top: 6.81px;
+
         a {
             color: $off-white;
             text-decoration: none;
@@ -47,6 +52,7 @@ body {
         display: flex;
         justify-content: center;
         gap: 17px;
+        margin-top: 15px;
 
         .email {
             background-color: $white;
@@ -80,8 +86,11 @@ body {
     width: 317px;
     text-align: left;
     background-color: $main-bg-color;
+    padding: 33px 0 24px;
 
     h2 {
+        width: 78%;
+        margin: auto;
         color: $off-white;
         font-size: 16px;
         font-weight: 700;
@@ -90,6 +99,8 @@ body {
     }
 
     p {
+        width: 78%;
+        margin: auto;
         color: $paragraph-text-color;
         font-size: 10.24px;
         font-weight: 400;
