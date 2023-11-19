@@ -1,3 +1,28 @@
-img {
-    background-color: red;
+@import 'resets';
+
+body {
+    background-color: #23252C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-info {
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #1A1B21;
+}
+
+.personal-info {
+    width: 317px;
+    text-align: left;
+    background-color: #1A1B21;
+}
+
+.footer {
+    width: 317px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #161619;
 }

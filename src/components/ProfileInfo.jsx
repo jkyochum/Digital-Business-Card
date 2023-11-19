@@ -1,6 +1,6 @@
 export default function ProfileInfo() {
     return (
-        <div>
+        <header className="profile-info">
             <img src="./src/assets/jy-logo.svg" alt="My logo" />
             <h1>Jeremy Yochum</h1>
             <h3>Front-end Developer</h3>
@@ -9,6 +9,6 @@ export default function ProfileInfo() {
                 <button className="email"><img src="./src/assets/mail-icon.svg" />Email</button>
                 <button className="linkedin"><img src="/src/assets/linkedin-icon.svg" />LinkedIn</button>
             </div>
-        </div>
+        </header>
     )
 }
