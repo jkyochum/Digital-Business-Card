@@ -7,7 +7,7 @@ export default function About() {
             </div>
             <div>
                 <h2>Interests</h2>
-                <p>Disc golf. Long hikes. Great food. Live shows. Date nights. Off-roading. Cyberpunk. Sunshine</p>
+                <p>Disc golf. Long hikes. Great food. Live shows. Date nights. Off-roading. Cyberpunk. Sunshine.</p>
             </div>
         </div>
     )
