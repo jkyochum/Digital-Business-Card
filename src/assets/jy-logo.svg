@@ -3,9 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="350px" height="350px" viewBox="0 0 350 350" enable-background="new 0 0 350 350" xml:space="preserve">
-<rect x="2.5" y="1.5" display="none" stroke="#FFFFFF" stroke-miterlimit="10" width="346" height="347"/>
-<path stroke="#FFFFFF" stroke-miterlimit="10" d="M345.5,336.5c0,6.627-5.373,12-12,12h-319c-6.627,0-12-5.373-12-12v-323
-	c0-6.627,5.373-12,12-12h319c6.627,0,12,5.373,12,12V336.5z"/>
+<rect fill-opacity="0" x="2.5" y="1.5" display="none" stroke="#000" stroke-miterlimit="10" width="346" height="347"/>
+<!-- <path stroke="#FFFFFF" stroke-miterlimit="10" d="M345.5,336.5c0,6.627-5.373,12-12,12h-319c-6.627,0-12-5.373-12-12v-323
+	c0-6.627,5.373-12,12-12h319c6.627,0,12,5.373,12,12V336.5z"/> -->
 <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="24" stroke-miterlimit="10" d="M159.491,291.184
 	c-5.727,8.67-13.24,15.1-22.534,19.295c-9.299,4.188-19.01,6.287-29.134,6.287c-21.246,0-31.871-4.859-31.871-14.578
 	c0-2.285,0.708-4.336,2.116-6.145c1.412-1.813,3.112-2.715,5.104-2.715s4.525,0.473,7.595,1.428c3.073,0.953,6.599,1.43,10.583,1.43
