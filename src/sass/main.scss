@@ -54,6 +54,10 @@ body {
         gap: 17px;
         margin-top: 15px;
 
+        a {
+            text-decoration: none;
+        }
+
         .email {
             background-color: $white;
             color: $gray-700;
