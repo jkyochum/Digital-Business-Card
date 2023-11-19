@@ -1,0 +1,17 @@
+@mixin button-layout {
+    display: flex;
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+@mixin button-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    /* 114.286% */
+}
